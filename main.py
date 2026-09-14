@@ -8,8 +8,8 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     # Configurações do Telegram
-    TOKEN = "8670666020:AAHuM4xVZziSAlfJk8MA1xU1j1VGEXlWGGM"
-    CHAT_ID = "8535923335"
+    TOKEN = ""
+    CHAT_ID = ""
 
     # Captura de dados
     ip = request.remote_addr
